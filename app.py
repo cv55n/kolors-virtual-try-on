@@ -316,7 +316,7 @@ with gr.Blocks(css=css) as Tryon:
                     minimum=0,
                     maximum=MAX_SEED,
                     step=1,
-                    value=0,
+                    value=0
                 )
 
                 randomize_seed = gr.Checkbox(label="seed aleatória", value=True)
